@@ -21,6 +21,9 @@
 		"type": "git",
 		"url": "git+https://github.com/Tarik02/io-ts-fuzzy.git"
 	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"devDependencies": {
 		"@types/chai": "^4.2.12",
 		"@types/mocha": "^8.0.1",
