@@ -1,5 +1,5 @@
 # io-ts-fuzzy
-[![Travis CI Build Status](https://travis-ci.org/Tarik02/io-ts-fuzzy.svg?branch=master)](https://travis-ci.org/Tarik02/io-ts-fuzzy)
+[![Travis CI Build Status](https://travis-ci.com/Tarik02/io-ts-fuzzy.svg?branch=master)](https://travis-ci.com/Tarik02/io-ts-fuzzy)
 [![npm version](https://badge.fury.io/js/io-ts-fuzzy.svg)](https://badge.fury.io/js/io-ts-fuzzy)
 
 Fuzzy-decoding objects and other types with io-ts. Very useful for type-less configs (for example, YAML).
