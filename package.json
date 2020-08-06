@@ -1,0 +1,42 @@
+{
+	"name": "io-ts-fuzzy",
+	"author": "Tarik02",
+	"license": "MIT",
+	"version": "0.1.0",
+	"description": "A collection of io-ts codecs for fuzzy decoding untyped configs and similar things",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+		"test": "mocha -r ts-node/register test/**/*.test.ts",
+		"prepublishOnly": "yarn build && yarn lint && yarn test",
+		"prepare": "install-peers"
+	},
+	"homepage": "https://github.com/Tarik02/io-ts-fuzzy#readme",
+	"bugs": {
+		"url": "https://github.com/Tarik02/io-ts-fuzzy/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Tarik02/io-ts-fuzzy.git"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.2.12",
+		"@types/mocha": "^8.0.1",
+		"@types/node": "^14.0.27",
+		"@typescript-eslint/eslint-plugin": "^3.7.1",
+		"@typescript-eslint/parser": "^3.7.1",
+		"chai": "^4.2.0",
+		"eslint": "^7.6.0",
+		"eslint-plugin-import": "^2.22.0",
+		"install-peers-cli": "^2.2.0",
+		"mocha": "^8.1.0",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.7"
+	},
+	"peerDependencies": {
+		"fp-ts": "*",
+		"io-ts": "*"
+	}
+}
