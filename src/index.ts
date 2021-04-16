@@ -1,5 +1,6 @@
 export * from './boolean'
 export * from './fallback'
+export * from './fallbackInput'
 export * from './float'
 export * from './integer'
 export * from './map'
