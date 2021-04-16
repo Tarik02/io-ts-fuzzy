@@ -2,7 +2,7 @@
 	"name": "io-ts-fuzzy",
 	"author": "Tarik02",
 	"license": "MIT",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "A collection of io-ts codecs for fuzzy decoding untyped configs and similar things",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
