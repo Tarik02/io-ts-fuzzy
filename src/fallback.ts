@@ -3,7 +3,7 @@ import * as t from 'io-ts'
 
 
 export const fallback = <T>(type: t.Type<T>, factory: (() => T)) => new t.Type<T>(
-	`fuzzy.optional<${type.name}>`,
+	`fuzzy.fallback<${type.name}>`,
 	(it): it is T => type.is(it),
 	(input, context) => {
 		if (input === null || input === undefined || input === 'null') {

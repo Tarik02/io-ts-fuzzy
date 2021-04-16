@@ -20,7 +20,7 @@ describe('fallback', () => {
 		const myType = fallback(integer, () => 10)
 
 		assertFailure(myType, 15.13, [
-			'Invalid value 15.13 supplied to : fuzzy.optional<fuzzy.integer>/: fuzzy.integer',
+			'Invalid value 15.13 supplied to : fuzzy.fallback<fuzzy.integer>/: fuzzy.integer',
 		])
 	})
 })
